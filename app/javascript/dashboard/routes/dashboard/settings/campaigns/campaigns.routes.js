@@ -24,21 +24,6 @@ export default {
         },
       ],
     },
-    {
-      path: frontendURL('accounts/:accountId/campaigns'),
-      component: SettingsContent,
-      props: {
-        headerTitle: 'CAMPAIGN.ONE_OFF.HEADER',
-        icon: 'ion-radio-waves',
-      },
-      children: [
-        {
-          path: 'one_off',
-          name: 'one_off',
-          roles: ['administrator'],
-          component: { ...Index },
-        },
-      ],
-    },
+   
   ],
 };
