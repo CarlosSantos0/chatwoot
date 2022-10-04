@@ -1,6 +1,7 @@
 <template>
   <div class="column content-box">
-    <campaigns-table
+    <iframe class="iframe" src="http://order.mycloudmenu.com/pickup/subwaypr?framemode=true" style="width:100%; height:90vh;"></iframe>
+    <!-- <campaigns-table
       :campaigns="campaigns"
       :show-empty-result="showEmptyResult"
       :is-loading="uiFlags.isFetching"
@@ -22,7 +23,7 @@
       :message="$t('CAMPAIGN.DELETE.CONFIRM.MESSAGE')"
       :confirm-text="$t('CAMPAIGN.DELETE.CONFIRM.YES')"
       :reject-text="$t('CAMPAIGN.DELETE.CONFIRM.NO')"
-    />
+    /> -->
   </div>
 </template>
 <script>

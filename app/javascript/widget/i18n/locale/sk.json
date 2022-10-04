@@ -34,11 +34,11 @@
   "BUBBLE": {
     "LABEL": "Četujte s nami"
   },
-  "POWERED_BY": "Používame Chatwoot",
-  "EMAIL_PLACEHOLDER": "Zadajte svoj e-mail",
-  "CHAT_PLACEHOLDER": "Zadajte svoju správu",
-  "TODAY": "Dnes",
-  "YESTERDAY": "Včera",
+  "POWERED_BY": "Powered by My Cloud Menu",
+  "EMAIL_PLACEHOLDER": "Please enter your email",
+  "CHAT_PLACEHOLDER": "Type your message",
+  "TODAY": "Today",
+  "YESTERDAY": "Yesterday",
   "PRE_CHAT_FORM": {
     "FIELDS": {
       "FULL_NAME": {
