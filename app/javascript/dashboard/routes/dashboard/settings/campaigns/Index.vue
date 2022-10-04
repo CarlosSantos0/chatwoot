@@ -1,13 +1,13 @@
 <template>
   <div class="column content-box">
-    <woot-button
+    <!-- <woot-button
       color-scheme="success"
       class-names="button--fixed-right-top"
       icon="add-circle"
       @click="openAddPopup"
     >
       {{ buttonText }}
-    </woot-button>
+    </woot-button> -->
     <campaign />
     <woot-modal :show.sync="showAddPopup" :on-close="hideAddPopup">
       <add-campaign @on-close="hideAddPopup" />
